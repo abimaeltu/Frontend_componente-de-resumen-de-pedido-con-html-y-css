@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+
+}
+body{
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--Pale-blue);
+}
+main{
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.contenido{
+    height: 35.6rem;
+    width: 20.3rem;
+    background-color: var(--Very-pale-blue);
+    text-align: center;
+    border-radius: 1rem;
+}
+.imagen{
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+    overflow: hidden;
+}
+.titulo{
+    color: var(--Dark-blue);
+    margin: 20px auto;
+    font-weight: 900;
+}
+.parrafo{
+    font-weight: 500;
+    color: var(--Desaturated-blue);
+    margin: 0 25px;
+    line-height: 24px;
+}
+.info{
+    display: flex;
+    height: 5rem;
+    width: 85%;
+    margin: 2rem auto;
+    background-color: rgb(247, 243, 243);
+    border-radius: 1rem;
+}
+.img_musica{
+    margin: 10px;
+}
+.info_plan{
+    display: block;
+    align-self: center;
+    margin-left: -1.6rem;
+}
+.plan{
+    color: var(--Dark-blue);
+    font-weight: 700;
+}
+.monto{
+    color: var(--Desaturated-blue);
+}
+.seleccion{
+    align-self: center;
+    color: var(--Bright-blue);
+    font-weight: 700;
+    margin: 12px;
+}
+.seleccion:hover{
+    color: var(--Desaturated-blue);
+    text-decoration: none;
+}
+.pedido{
+    display:grid;
+    margin: 1.5rem;
+}
+button{
+    background-color: var(--Bright-blue);
+    color: var(--Very-pale-blue);
+    font-weight: 900;
+    border: none;
+    border-radius: 0.4rem;
+    height: 2.8rem;
+    width: 95%;
+    margin: auto;
+}
+button:hover{
+    background-color: var(--Desaturated-blue);
+    cursor: pointer;
+    box-shadow: 10px 9px 30px -8px hsl(245, 75%, 52% ,1);
+}
+.pedido a{
+    color: var(--Desaturated-blue);
+    font-weight: 900;
+    margin: 1.5rem;
+    text-decoration: none;
+}
+.pedido a:hover{
+    color: var(--Dark-blue);
+    cursor: pointer;
+    font-weight: 700;
+}
+.attribution { font-size: 11px; text-align: center;margin: auto;}
+.attribution a { color: hsl(228, 45%, 44%); }
